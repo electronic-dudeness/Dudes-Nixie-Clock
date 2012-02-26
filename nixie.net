@@ -1,0 +1,782 @@
+# EESchema Netlist Version 1.1 created  Sun 26 Feb 2012 12:51:08 PM CET
+(
+ ( /4F3E3A95 CR2032H BT1 CR2032
+  ( 1 N-000025 )
+  ( 2 GND )
+ )
+ ( /4F3E1849 C1 C1 330nF
+  ( 1 /RAW )
+  ( 2 GND )
+ )
+ ( /4F3E1850 C1 C2 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F3EA3AE C1 C3 0.1uF
+  ( 1 /RST )
+  ( 2 /DTR )
+ )
+ ( /4F44BAAC C1 C4 0.1uF
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /4F3E74F7 C1V5 C5 220uF_25V
+  ( 1 N-000072 )
+  ( 2 GND )
+ )
+ ( /4F3E9E25 C1V5 C6 2.2uF_250V
+  ( 1 N-000063 )
+  ( 2 GND )
+ )
+ ( /4F40120F C1 C7 2.2nF
+  ( 1 N-000052 )
+  ( 2 GND )
+ )
+ ( /4F3E9CE5 C1 C8 10nF
+  ( 1 N-000053 )
+  ( 2 GND )
+ )
+ ( /4F3F7544 $noname$ D1 1N4004
+  ( 1 /RAW )
+  ( 2 N-000072 )
+ )
+ ( /4F3E9B9F $noname$ D2 BAV21
+  ( 1 N-000068 )
+  ( 2 N-000063 )
+ )
+ ( /4F4688B7 $noname$ D3 180V
+  ( 1 N-000063 )
+  ( 2 +180V )
+ )
+ ( /4F3E8F62 $noname$ D4 1N4148
+  ( 1 N-000066 )
+  ( 2 N-000039 )
+ )
+ ( /4F3D4686 $noname$ IC1 DS1307
+  ( 1 N-000067 )
+  ( 2 N-000054 )
+  ( 3 N-000025 )
+  ( 4 GND )
+  ( 5 /SDA )
+  ( 6 /SCL )
+  ( 7 ? )
+  ( 8 VCC )
+ )
+ ( /4F391EB1 $noname$ IC2 ATmega168-P
+  ( 1 /RST )
+  ( 2 /RX1 )
+  ( 3 /TX0 )
+  ( 4 N-000002 )
+  ( 5 N-000011 )
+  ( 6 N-000015 )
+  ( 7 VCC )
+  ( 8 GND )
+  ( 9 /PB6 )
+  ( 10 /PB7 )
+  ( 11 N-000008 )
+  ( 12 N-000010 )
+  ( 13 N-000056 )
+  ( 14 N-000084 )
+  ( 15 N-000059 )
+  ( 16 N-000058 )
+  ( 17 /MOSI )
+  ( 18 /MISO )
+  ( 19 /SCK )
+  ( 20 VCC )
+  ( 21 N-000035 )
+  ( 22 GND )
+  ( 23 /Neons )
+  ( 24 /NTC )
+  ( 25 /LDR )
+  ( 26 /buttons )
+  ( 27 /SDA )
+  ( 28 /SCL )
+ )
+ ( /4F3E15F0 $noname$ J1 9-12V
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 /RAW )
+ )
+ ( /4F3E721F $noname$ L1 220uH
+  ( 1 N-000072 )
+  ( 2 N-000068 )
+ )
+ ( /4F44A5D2 $noname$ P1 ICSP
+  ( 1 /MISO )
+  ( 2 VCC )
+  ( 3 /SCK )
+  ( 4 /MOSI )
+  ( 5 /RST )
+  ( 6 GND )
+ )
+ ( /4F3F78A9 $noname$ P2 FTDI_Basic
+  ( 1 /DTR )
+  ( 2 /TX0 )
+  ( 3 /RX1 )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /4F4922D2 $noname$ P3 Kathodes
+  ( 1 N-000051 )
+  ( 2 ? )
+  ( 3 N-000050 )
+  ( 4 ? )
+  ( 5 N-000044 )
+  ( 6 ? )
+  ( 7 N-000045 )
+  ( 8 ? )
+  ( 9 N-000048 )
+  ( 10 ? )
+  ( 11 N-000049 )
+  ( 12 GND )
+  ( 13 N-000047 )
+  ( 14 N-000073 )
+  ( 15 N-000046 )
+  ( 16 N-000040 )
+ )
+ ( /4F455648 $noname$ P4 GPS
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 /TX0 )
+  ( 4 /RX1 )
+  ( 5 VCC )
+  ( 6 GND )
+ )
+ ( /4F491DC1 $noname$ P5 Anodes
+  ( 1 /LDR )
+  ( 2 ? )
+  ( 3 /blue_led )
+  ( 4 ? )
+  ( 5 /green_led )
+  ( 6 ? )
+  ( 7 /red_led )
+  ( 8 +180V )
+  ( 9 N-000031 )
+  ( 10 GND )
+  ( 11 N-000091 )
+  ( 12 N-000069 )
+  ( 13 N-000074 )
+  ( 14 N-000012 )
+  ( 15 N-000092 )
+  ( 16 N-000070 )
+ )
+ ( /4F3E9698 $noname$ Q1 IRF740
+  ( D N-000068 )
+  ( G N-000039 )
+  ( S GND )
+ )
+ ( /4F3E8F9D $noname$ Q2 BC638
+  ( 1 GND )
+  ( 2 N-000066 )
+  ( 3 N-000039 )
+ )
+ ( /4F3FACA0 TO92-CBE Q3 MPSA92
+  ( B N-000062 )
+  ( C N-000091 )
+  ( E +180V )
+ )
+ ( /4F3FADA5 TO92-CBE Q4 MPSA92
+  ( B N-000075 )
+  ( C N-000074 )
+  ( E +180V )
+ )
+ ( /4F3FAE03 TO92-CBE Q5 MPSA92
+  ( B N-000006 )
+  ( C N-000092 )
+  ( E +180V )
+ )
+ ( /4F3FAE25 TO92-CBE Q6 MPSA92
+  ( B N-000093 )
+  ( C N-000070 )
+  ( E +180V )
+ )
+ ( /4F3FAE37 TO92-CBE Q7 MPSA92
+  ( B N-000089 )
+  ( C N-000012 )
+  ( E +180V )
+ )
+ ( /4F3FAE46 TO92-CBE Q8 MPSA92
+  ( B N-000090 )
+  ( C N-000069 )
+  ( E +180V )
+ )
+ ( /4F3FAC75 TO92-CBE Q9 MPSA42
+  ( B N-000055 )
+  ( C N-000057 )
+  ( E GND )
+ )
+ ( /4F3FADA7 TO92-CBE Q10 MPSA42
+  ( B N-000060 )
+  ( C N-000061 )
+  ( E GND )
+ )
+ ( /4F3FAE01 TO92-CBE Q11 MPSA42
+  ( B N-000009 )
+  ( C N-000007 )
+  ( E GND )
+ )
+ ( /4F3FAE27 TO92-CBE Q12 MPSA42
+  ( B N-000016 )
+  ( C N-000017 )
+  ( E GND )
+ )
+ ( /4F3FAE35 TO92-CBE Q13 MPSA42
+  ( B N-000013 )
+  ( C N-000014 )
+  ( E GND )
+ )
+ ( /4F3FAE48 TO92-CBE Q14 MPSA42
+  ( B N-000003 )
+  ( C N-000005 )
+  ( E GND )
+ )
+ ( /4F40D2F5 TO92-CBE Q15 MPSA42
+  ( B N-000030 )
+  ( C N-000031 )
+  ( E GND )
+ )
+ ( /4F3E3A44 R3 R1 10K0
+  ( 1 VCC )
+  ( 2 /SCL )
+ )
+ ( /4F3EA3C1 R3 R2 10K0
+  ( 1 VCC )
+  ( 2 /RST )
+ )
+ ( /4F3E3A4F R3 R3 10K0
+  ( 1 /SDA )
+  ( 2 VCC )
+ )
+ ( /4F48E265 R3 R4 100
+  ( 1 N-000083 )
+  ( 2 N-000084 )
+ )
+ ( /4F3F9D4F R3 R5 220
+  ( 1 /red_led )
+  ( 2 N-000059 )
+ )
+ ( /4F3F9D58 R3 R6 220
+  ( 1 /green_led )
+  ( 2 N-000058 )
+ )
+ ( /4F3F9D61 R3 R7 220
+  ( 1 /blue_led )
+  ( 2 /MOSI )
+ )
+ ( /4F3E9C33 R3 R8 470K
+  ( 1 N-000063 )
+  ( 2 N-000053 )
+ )
+ ( /4F3E8F80 R3 R9 1K0
+  ( 1 N-000066 )
+  ( 2 GND )
+ )
+ ( /4F3FAD03 R3 R10 10K
+  ( 1 +180V )
+  ( 2 N-000062 )
+ )
+ ( /4F3FADA3 R3 R11 10K
+  ( 1 +180V )
+  ( 2 N-000075 )
+ )
+ ( /4F3FAE05 R3 R12 10K
+  ( 1 +180V )
+  ( 2 N-000006 )
+ )
+ ( /4F3FAE23 R3 R13 10K
+  ( 1 +180V )
+  ( 2 N-000093 )
+ )
+ ( /4F3FAE39 R3 R14 10K
+  ( 1 +180V )
+  ( 2 N-000089 )
+ )
+ ( /4F3FAE44 R3 R15 10K
+  ( 1 +180V )
+  ( 2 N-000090 )
+ )
+ ( /4F3FAC18 R3 R16 10K
+  ( 1 N-000056 )
+  ( 2 N-000055 )
+ )
+ ( /4F3FAC8D R3 R17 470K
+  ( 1 N-000062 )
+  ( 2 N-000057 )
+ )
+ ( /4F3FADAA R3 R18 10K
+  ( 1 N-000010 )
+  ( 2 N-000060 )
+ )
+ ( /4F3FADA6 R3 R19 470K
+  ( 1 N-000075 )
+  ( 2 N-000061 )
+ )
+ ( /4F3FADFE R3 R20 10K
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /4F3FAE02 R3 R21 470K
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+ )
+ ( /4F3FAE2A R3 R22 10K
+  ( 1 N-000015 )
+  ( 2 N-000016 )
+ )
+ ( /4F3FAE26 R3 R23 470K
+  ( 1 N-000093 )
+  ( 2 N-000017 )
+ )
+ ( /4F3FAE32 R3 R24 10K
+  ( 1 N-000011 )
+  ( 2 N-000013 )
+ )
+ ( /4F3FAE36 R3 R25 470K
+  ( 1 N-000089 )
+  ( 2 N-000014 )
+ )
+ ( /4F3FAE4B R3 R26 10K
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+ )
+ ( /4F3FAE47 R3 R27 470K
+  ( 1 N-000090 )
+  ( 2 N-000005 )
+ )
+ ( /4F40D2F9 R3 R28 10K
+  ( 1 /Neons )
+  ( 2 N-000030 )
+ )
+ ( /4F48E3E9 R3 R29 10K
+  ( 1 /NTC )
+  ( 2 GND )
+ )
+ ( /4F45463F R3 R30 10K
+  ( 1 VCC )
+  ( 2 N-000034 )
+ )
+ ( /4F454642 R3 R31 47K
+  ( 1 VCC )
+  ( 2 N-000033 )
+ )
+ ( /4F454644 R3 R32 82K
+  ( 1 VCC )
+  ( 2 N-000032 )
+ )
+ ( /4F455251 R3 R33 1K
+  ( 1 VCC )
+  ( 2 /LDR )
+ )
+ ( /4F454651 R3 R34 100K
+  ( 1 /buttons )
+  ( 2 GND )
+ )
+ ( /4F3E9C7B $noname$ RV1 5K_TRIM
+  ( 1 N-000053 )
+  ( 2 GND )
+  ( 3 ? )
+ )
+ ( /4F48BAF7 $noname$ SP1 AL11P
+  ( + N-000083 )
+  ( - GND )
+ )
+ ( /4F45460E $noname$ SW1 SPST
+  ( 1 /buttons )
+  ( 2 N-000034 )
+ )
+ ( /4F454634 $noname$ SW2 SPST
+  ( 1 /buttons )
+  ( 2 N-000033 )
+ )
+ ( /4F454639 $noname$ SW3 SPST
+  ( 1 /buttons )
+  ( 2 N-000032 )
+ )
+ ( /4F48E3F7 $noname$ TH1 THERMISTOR
+  ( 1 VCC )
+  ( 2 /NTC )
+ )
+ ( /4F3D7610 $noname$ U1 7805
+  ( GND GND )
+  ( VI /RAW )
+  ( VO VCC )
+ )
+ ( /4F391FC2 $noname$ U2 74141
+  ( 1 N-000040 )
+  ( 2 N-000073 )
+  ( 3 /MISO )
+  ( 4 /PB7 )
+  ( 5 VCC )
+  ( 6 /SCK )
+  ( 7 /PB6 )
+  ( 8 N-000044 )
+  ( 9 N-000045 )
+  ( 10 N-000046 )
+  ( 11 N-000047 )
+  ( 12 GND )
+  ( 13 N-000048 )
+  ( 14 N-000049 )
+  ( 15 N-000050 )
+  ( 16 N-000051 )
+ )
+ ( /4F3D761C $noname$ U3 MC34063
+  ( 1 N-000072 )
+  ( 2 N-000066 )
+  ( 3 N-000052 )
+  ( 4 GND )
+  ( 5 N-000053 )
+  ( 6 N-000072 )
+  ( 7 N-000072 )
+  ( 8 N-000072 )
+ )
+ ( /4F3E7305 $noname$ X1 32kHz
+  ( 1 N-000067 )
+  ( 2 N-000054 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component IC2
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component Q3
+ TO92-CBE
+$endlist
+$component Q4
+ TO92-CBE
+$endlist
+$component Q5
+ TO92-CBE
+$endlist
+$component Q6
+ TO92-CBE
+$endlist
+$component Q7
+ TO92-CBE
+$endlist
+$component Q8
+ TO92-CBE
+$endlist
+$component Q9
+ TO92-CBE
+$endlist
+$component Q10
+ TO92-CBE
+$endlist
+$component Q11
+ TO92-CBE
+$endlist
+$component Q12
+ TO92-CBE
+$endlist
+$component Q13
+ TO92-CBE
+$endlist
+$component Q14
+ TO92-CBE
+$endlist
+$component Q15
+ TO92-CBE
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component TH1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
