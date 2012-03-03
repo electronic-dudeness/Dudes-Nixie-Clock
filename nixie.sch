@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 26 Feb 2012 01:21:17 PM CET
+EESchema Schematic File Version 2  date Sun 26 Feb 2012 08:45:35 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -65,9 +65,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	11700 3050 12500 3050
+	4200 1800 4200 2150
 Wire Wire Line
-	12300 1300 13000 1300
+	12500 3050 11700 3050
+Wire Wire Line
+	13000 1300 12300 1300
 Wire Wire Line
 	4650 3550 4350 3550
 Wire Wire Line
@@ -75,7 +77,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 3350 4500 2550
 Wire Wire Line
-	11950 3650 11950 3850
+	11950 3850 11950 3650
 Wire Wire Line
 	5850 3950 6950 3950
 Wire Wire Line
@@ -108,7 +110,7 @@ Wire Wire Line
 	4100 6450 4200 6450
 Connection ~ 4950 4900
 Wire Wire Line
-	4500 4900 5050 4900
+	5050 4900 4500 4900
 Wire Wire Line
 	6900 3550 7000 3550
 Wire Wire Line
@@ -137,15 +139,12 @@ Wire Wire Line
 	11400 8950 11400 7500
 Connection ~ 3600 4900
 Wire Wire Line
-	3700 4900 3150 4900
+	3150 4900 3700 4900
 Connection ~ 8850 4900
 Wire Wire Line
-	8950 4900 8400 4900
-Connection ~ 4200 2050
+	8400 4900 8950 4900
 Wire Wire Line
-	4350 2050 4200 2050
-Wire Wire Line
-	1750 6700 1550 6700
+	1550 6700 1750 6700
 Wire Wire Line
 	2250 6700 2450 6700
 Wire Wire Line
@@ -158,7 +157,7 @@ Wire Wire Line
 	1250 2850 1650 2850
 Connection ~ 7600 4900
 Wire Wire Line
-	7700 4900 7150 4900
+	7150 4900 7700 4900
 Connection ~ 11200 1400
 Wire Wire Line
 	11200 1350 11200 1400
@@ -168,7 +167,7 @@ Wire Wire Line
 	11300 1900 11200 1900
 Connection ~ 11300 1500
 Wire Wire Line
-	8850 2800 8850 2200
+	8850 2200 8850 2800
 Wire Wire Line
 	4500 2550 3550 2550
 Wire Wire Line
@@ -255,11 +254,11 @@ Wire Wire Line
 Wire Wire Line
 	9650 6100 9650 6250
 Wire Wire Line
-	9650 5400 9650 5600
+	9650 5600 9650 5400
 Connection ~ 9650 5450
 Connection ~ 8400 5450
 Wire Wire Line
-	8400 5600 8400 5400
+	8400 5400 8400 5600
 Wire Wire Line
 	8850 7500 8850 5650
 Wire Wire Line
@@ -279,14 +278,14 @@ Wire Wire Line
 Wire Wire Line
 	7150 6100 7150 6250
 Wire Wire Line
-	7150 5400 7150 5600
+	7150 5600 7150 5400
 Connection ~ 7150 5450
 Connection ~ 6300 4900
 Wire Wire Line
-	5850 4900 6400 4900
+	6400 4900 5850 4900
 Connection ~ 5850 5450
 Wire Wire Line
-	5850 5600 5850 5400
+	5850 5400 5850 5600
 Wire Wire Line
 	6300 7300 6300 5650
 Wire Wire Line
@@ -299,7 +298,7 @@ Wire Wire Line
 	6300 5250 6300 4900
 Connection ~ 3150 5450
 Wire Wire Line
-	3150 5600 3150 5400
+	3150 5400 3150 5600
 Wire Wire Line
 	3600 7100 3600 5650
 Wire Wire Line
@@ -329,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1450 1500 1550
 Wire Wire Line
-	1650 2150 1350 2150
+	1350 2150 1650 2150
 Wire Wire Line
 	1500 2350 1650 2350
 Wire Wire Line
@@ -352,10 +351,10 @@ Connection ~ 11100 3050
 Wire Wire Line
 	11300 3050 11100 3050
 Wire Wire Line
-	11100 3150 11100 2950
+	11100 2950 11100 3150
 Connection ~ 10550 3350
 Wire Wire Line
-	10450 3350 10800 3350
+	10800 3350 10450 3350
 Wire Wire Line
 	10300 2300 10300 2450
 Wire Wire Line
@@ -364,7 +363,7 @@ Wire Wire Line
 	10550 4100 10550 3950
 Connection ~ 9900 3350
 Wire Wire Line
-	9900 3800 9900 3350
+	9900 3350 9900 3800
 Connection ~ 9900 3100
 Wire Wire Line
 	9700 3100 9900 3100
@@ -383,7 +382,7 @@ Connection ~ 8850 2300
 Wire Wire Line
 	9900 3200 9700 3200
 Wire Wire Line
-	8700 700  8250 700 
+	8250 700  8700 700 
 Connection ~ 12750 1300
 Wire Wire Line
 	12750 1200 12750 1300
@@ -395,10 +394,10 @@ Connection ~ 8550 700
 Wire Wire Line
 	8550 900  8550 700 
 Wire Wire Line
-	9950 700  9500 700 
+	9500 700  9950 700 
 Connection ~ 7100 1300
 Wire Wire Line
-	7100 1550 7100 1200
+	7100 1200 7100 1550
 Wire Wire Line
 	9100 1000 9100 1400
 Wire Wire Line
@@ -407,7 +406,7 @@ Connection ~ 9700 700
 Wire Wire Line
 	8550 1300 8550 1400
 Wire Wire Line
-	11100 1500 11400 1500
+	11400 1500 11100 1500
 Wire Wire Line
 	12750 2100 12750 2050
 Wire Wire Line
@@ -429,7 +428,7 @@ Wire Wire Line
 	10250 3750 9900 3750
 Connection ~ 9900 3750
 Wire Wire Line
-	9700 3350 10050 3350
+	10050 3350 9700 3350
 Wire Wire Line
 	10300 2850 10300 2950
 Wire Wire Line
@@ -490,7 +489,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 6100 4500 6250
 Wire Wire Line
-	4500 5600 4500 5400
+	4500 5400 4500 5600
 Connection ~ 4500 5450
 Wire Wire Line
 	4100 5600 4100 4750
@@ -555,7 +554,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 8100 12200 7400
 Wire Wire Line
-	12300 7400 12300 8100
+	12300 8100 12300 7400
 Wire Wire Line
 	12500 7800 12300 7800
 Connection ~ 12300 7800
@@ -566,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2650 4450 2650
 Wire Wire Line
-	8750 2700 8850 2700
+	8850 2700 8750 2700
 Connection ~ 8850 2700
 Wire Wire Line
 	10600 1900 10600 1400
@@ -575,7 +574,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 1400 11300 1300
 Wire Wire Line
-	10200 4900 9650 4900
+	9650 4900 10200 4900
 Connection ~ 10100 4900
 Wire Wire Line
 	1650 2550 1450 2550
@@ -586,11 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 3050 1250 3050
 Wire Wire Line
-	4200 1550 4200 1400
-Wire Wire Line
-	4150 2150 4200 2150
-Wire Wire Line
-	4200 2150 4200 1950
+	4200 2150 4150 2150
 Wire Wire Line
 	900  6700 1050 6700
 Wire Wire Line
@@ -659,7 +654,18 @@ Wire Wire Line
 Wire Wire Line
 	4650 3650 4350 3650
 Wire Wire Line
-	12300 1500 13000 1500
+	13000 1500 12300 1500
+Wire Wire Line
+	4200 1600 4200 1400
+$Comp
+L SPEAKER SP1
+U 1 1 4F4A8BB2
+P 4500 1700
+F 0 "SP1" H 4400 1950 70  0000 C CNN
+F 1 "SPEAKER" H 4400 1450 70  0000 C CNN
+	1    4500 1700
+	1    0    0    -1  
+$EndComp
 $Comp
 L R R35
 U 1 1 4F4A1CD4
@@ -713,15 +719,6 @@ P 11950 8500
 F 0 "P5" H 11950 8950 60  0000 C CNN
 F 1 "Anodes" V 11950 8500 50  0000 C CNN
 	1    11950 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L PWR_FLAG #FLG03
-U 1 1 4F490637
-P 4350 2050
-F 0 "#FLG03" H 4350 2145 30  0001 C CNN
-F 1 "PWR_FLAG" H 4350 2230 30  0000 C CNN
-	1    4350 2050
 	0    1    1    0   
 $EndComp
 Text Label 1650 6400 1    60   ~ 0
@@ -784,16 +781,6 @@ F 1 "GND" H 4200 1330 30  0001 C CNN
 $EndComp
 Text Label 4000 2950 0    60   ~ 0
 NTC
-$Comp
-L AL11P SP1
-U 1 1 4F48BAF7
-P 4200 1750
-F 0 "SP1" H 4050 2000 50  0000 L BNN
-F 1 "AL11P" H 4050 1625 50  0000 L BNN
-F 2 "buzzer-AL11P" H 4200 1900 50  0001 C CNN
-	1    4200 1750
-	0    1    1    0   
-$EndComp
 NoConn ~ 12300 1100
 Text Label 4350 3650 0    60   ~ 0
 PB7
