@@ -1,6 +1,6 @@
-# EESchema Netlist Version 1.1 created  Sun 26 Feb 2012 08:48:50 PM CET
+# EESchema Netlist Version 1.1 created  Wed 07 Mar 2012 02:20:02 PM CET
 (
- ( /4F3E3A95 CR2032H BT1 CR2032
+ ( /4F3E3A95 BT1 BT1 CR2032
   ( 1 N-000069 )
   ( 2 GND )
  )
@@ -358,7 +358,7 @@
  )
  ( /4F454642 R3 R31 47K
   ( 1 VCC )
-  ( 2 N-000036 )
+  ( 2 N-000035 )
  )
  ( /4F454644 R3 R32 82K
   ( 1 VCC )
@@ -385,17 +385,17 @@
   ( 1 GND )
   ( 2 N-000092 )
  )
- ( /4F45460E SW_PUSH_SMALL SW1 SPST
-  ( 1 /buttons )
-  ( 2 N-000037 )
+ ( /4F45460E SW1 SW1 SPST
+  ( 1 N-000037 )
+  ( 2 /buttons )
  )
- ( /4F454634 SW_PUSH_SMALL SW2 SPST
-  ( 1 /buttons )
-  ( 2 N-000036 )
+ ( /4F454634 SW1 SW2 SPST
+  ( 1 N-000035 )
+  ( 2 /buttons )
  )
- ( /4F454639 SW_PUSH_SMALL SW3 SPST
-  ( 1 /buttons )
-  ( 2 N-000034 )
+ ( /4F454639 SW1 SW3 SPST
+  ( 1 N-000034 )
+  ( 2 /buttons )
  )
  ( /4F48E3F7 C1 TH1 THERMISTOR
   ( 1 VCC )

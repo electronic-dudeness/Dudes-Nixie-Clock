@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 26 Feb 2012 08:45:35 PM CET
+EESchema Schematic File Version 2  date Wed 07 Mar 2012 12:31:57 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -56,7 +56,7 @@ $Descr User 13779 10500
 encoding utf-8
 Sheet 1 1
 Title "Arduino compatible nixie clock"
-Date "26 feb 2012"
+Date "7 mar 2012"
 Rev "0.5"
 Comp ""
 Comment1 ""
@@ -969,7 +969,7 @@ P 3900 8050
 F 0 "SW3" H 3900 8150 70  0000 C CNN
 F 1 "SPST" H 3900 7950 70  0000 C CNN
 	1    3900 8050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SPST SW2
@@ -978,7 +978,7 @@ P 2550 8050
 F 0 "SW2" H 2550 8150 70  0000 C CNN
 F 1 "SPST" H 2550 7950 70  0000 C CNN
 	1    2550 8050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SPST SW1
@@ -987,7 +987,7 @@ P 1250 8050
 F 0 "SW1" H 1250 8150 70  0000 C CNN
 F 1 "SPST" H 1250 7950 70  0000 C CNN
 	1    1250 8050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Label 4000 3050 0    60   ~ 0
 LDR
