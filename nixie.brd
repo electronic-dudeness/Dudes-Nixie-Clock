@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 07 Mar 2012 02:45:17 PM CET
+PCBNEW-BOARD Version 1 date Wed 07 Mar 2012 06:46:22 PM CET
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 187
 NoConn 0
 Di 5519 6068 64903 27627
-Ndraw 6
+Ndraw 8
 Ntrack 695
 Nzone 0
 BoardThickness 630
@@ -58,8 +58,9 @@ TextModWidth 120
 PadSize 827 827
 PadDrill 591
 Pad2MaskClearance 100
+GridOrigin 5811 7709
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 2097152) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory "/home/ubuntu/Desktop/Seeed nixie clock/"))
 $EndSETUP
 
 $EQUIPOT
@@ -503,13 +504,13 @@ AddNet "N-000073"
 AddNet "N-000074"
 $EndNCLASS
 $MODULE SW1
-Po 17087 9094 0 15 4F5762F7 4F4A8CCA ~~
+Po 17087 9094 0 15 4F579EEC 4F4A8CCA ~~
 Li SW1
 Sc 4F4A8CCA
 AR /4F454639
 Op 0 0 0
 T0 0 -300 400 400 0 80 N V 21 N "SW3"
-T1 0 400 400 400 0 80 N V 21 N "SPST"
+T1 0 400 400 400 0 80 N I 21 N "SPST"
 DS 394 -1270 394 -1585 150 21
 DS 394 -1585 -394 -1585 150 21
 DS -394 -1585 -394 -1289 150 21
@@ -547,13 +548,13 @@ Po -1506 492
 $EndPAD
 $EndMODULE  SW1
 $MODULE SW1
-Po 13346 9094 0 15 4F5762DB 4F4A8CC8 ~~
+Po 13346 9094 0 15 4F579EE6 4F4A8CC8 ~~
 Li SW1
 Sc 4F4A8CC8
 AR /4F454634
 Op 0 0 0
 T0 0 -300 400 400 0 80 N V 21 N "SW2"
-T1 0 400 400 400 0 80 N V 21 N "SPST"
+T1 0 400 400 400 0 80 N I 21 N "SPST"
 DS 394 -1270 394 -1585 150 21
 DS 394 -1585 -394 -1585 150 21
 DS -394 -1585 -394 -1289 150 21
@@ -591,13 +592,13 @@ Po -1506 492
 $EndPAD
 $EndMODULE  SW1
 $MODULE SW1
-Po 9606 9094 0 15 4F5762AA 4F4A8CC6 ~~
+Po 9606 9094 0 15 4F579EE2 4F4A8CC6 ~~
 Li SW1
 Sc 4F4A8CC6
 AR /4F45460E
 Op 0 0 0
 T0 0 -300 400 400 0 80 N V 21 N "SW1"
-T1 0 400 400 400 0 80 N V 21 N "SPST"
+T1 0 400 400 400 0 80 N I 21 N "SPST"
 DS 394 -1270 394 -1585 150 21
 DS 394 -1585 -394 -1585 150 21
 DS -394 -1585 -394 -1289 150 21
@@ -2669,14 +2670,14 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  R3
 $MODULE R3
-Po 42814 14084 1800 15 4F550CEF 4F4A8D07 ~P
+Po 42814 14084 1800 15 4F579363 4F4A8D07 ~P
 Li R3
 Cd Resitance 3 pas
 Kw R
 Sc 4F4A8D07
 AR /4F48E265
 Op 0 A 0
-T0 0 50 550 500 1800 80 N I 21 N "R4"
+T0 66 658 550 500 1800 80 N V 21 N "R4"
 T1 14 -66 550 500 1800 80 N V 21 N "100"
 DS -1500 0 -1300 0 80 21
 DS 1500 0 1300 0 80 21
@@ -4493,6 +4494,16 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE  1pin
+$TEXTPCB
+Te "Order #46278"
+Po 12465 22607 600 800 120 900
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "March 7th 2012"
+Po 34902 11835 600 800 120 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 3 44300 18700 44650 18950 150
 De 21 0 900 0 0
@@ -4947,6 +4958,8 @@ Po 0 20999 18920 18612 21307 126 -1
 De 0 0 17 0 0
 Po 0 20999 15777 20999 18920 126 -1
 De 0 0 17 0 400000
+Po 0 14862 9586 15581 9586 126 -1
+De 15 0 18 0 C00000
 Po 3 36434 17400 36434 17400 350 -1
 De 15 1 18 0 0
 Po 0 8523 10009 8100 9586 126 -1
@@ -4964,8 +4977,6 @@ De 15 0 18 0 C00000
 Po 0 11122 9586 11840 9586 126 -1
 De 15 0 18 0 C00000
 Po 0 11840 9586 14862 9586 126 -1
-De 15 0 18 0 C00000
-Po 0 14862 9586 15581 9586 126 -1
 De 15 0 18 0 C00000
 Po 0 15581 9586 18603 9586 126 -1
 De 15 0 18 0 C00000
